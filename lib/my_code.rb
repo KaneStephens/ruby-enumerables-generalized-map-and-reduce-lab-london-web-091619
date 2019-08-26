@@ -11,9 +11,12 @@ def map(array)
 end 
 
 def reduce(array, start_point = nil)
+  counter = 0
   if startpoint == TRUE
     total = start_point
-  
+  else 
+    total = 0
+  end
   
   
   
