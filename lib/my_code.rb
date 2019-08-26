@@ -15,7 +15,8 @@ def reduce(array, start_point = nil)
   if start_point 
     my_return = start_point
   else 
-    my_return = array[counter]
+    my_return = array[0]
+    counter += 1 
   end
   while counter < array.length do
     my_return = yield(my_return, array[counter])
