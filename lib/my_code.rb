@@ -10,3 +10,13 @@ def map(array)
   new_array
 end 
 
+def reduce(array, startpoint = 0)
+  
+  
+  
+  
+  
+end
+
+
+
