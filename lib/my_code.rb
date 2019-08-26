@@ -17,7 +17,8 @@ def reduce(array, start_point = nil)
   else 
     my_return = 0
   end
-  
+  while counter < array.length do
+    
   
   
   my_return
