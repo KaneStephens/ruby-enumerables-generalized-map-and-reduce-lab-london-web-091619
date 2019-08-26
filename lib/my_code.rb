@@ -10,9 +10,10 @@ def map(array)
   new_array
 end 
 
-def reduce(array, startpoint = nil)
+def reduce(array, start_point = nil)
   if startpoint == TRUE
-    
+    total = start_point
+  
   
   
   
